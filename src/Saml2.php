@@ -296,6 +296,10 @@ class Saml2
          */
 
         return [
+            'security' => [
+                'requestedAuthnContext' => false
+            ],
+            
             // If 'strict' is True, then the PHP Toolkit will reject unsigned
             // or unencrypted messages if it expects them signed or encrypted
             // Also will reject the messages if not strictly follow the SAML
