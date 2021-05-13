@@ -1,5 +1,5 @@
 {
-    "name": "rootinc/laravel-saml2-middleware",
+    "name": "dualitystudio/laravel-saml2-middleware",
     "description": "Saml2 Middleware Auth",
     "type": "library",
     "require": {
